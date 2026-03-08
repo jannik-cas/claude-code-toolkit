@@ -1,0 +1,5 @@
+{
+  "name": "commit-guard",
+  "description": "Instant type-checking and linting after every edit",
+  "author": { "name": "Jannik Castenow" }
+}

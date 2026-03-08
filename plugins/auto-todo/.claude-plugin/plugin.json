@@ -1,0 +1,5 @@
+{
+  "name": "auto-todo",
+  "description": "Auto-collect TODO/FIXME/HACK comments into a centralized list",
+  "author": { "name": "Jannik Castenow" }
+}

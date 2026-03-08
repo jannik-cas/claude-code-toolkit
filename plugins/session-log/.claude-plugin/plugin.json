@@ -1,0 +1,5 @@
+{
+  "name": "session-log",
+  "description": "Log session timestamps and working directory",
+  "author": { "name": "Jannik Castenow" }
+}

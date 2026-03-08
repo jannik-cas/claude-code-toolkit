@@ -1,0 +1,5 @@
+{
+  "name": "context-primer",
+  "description": "Auto-generate an optimized CLAUDE.md from your codebase",
+  "author": { "name": "Jannik Castenow" }
+}

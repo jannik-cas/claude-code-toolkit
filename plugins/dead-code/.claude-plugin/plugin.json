@@ -1,0 +1,5 @@
+{
+  "name": "dead-code",
+  "description": "Find unreachable code, unused exports, and dead dependency subtrees",
+  "author": { "name": "Jannik Castenow" }
+}

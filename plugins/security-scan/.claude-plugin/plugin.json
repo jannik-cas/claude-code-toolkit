@@ -1,0 +1,5 @@
+{
+  "name": "security-scan",
+  "description": "Scan for hardcoded secrets, OWASP Top 10 patterns, and dependency CVEs",
+  "author": { "name": "Jannik Castenow" }
+}

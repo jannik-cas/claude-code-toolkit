@@ -1,0 +1,5 @@
+{
+  "name": "auto-format",
+  "description": "Auto-detect and run project formatter on changed files",
+  "author": { "name": "Jannik Castenow" }
+}

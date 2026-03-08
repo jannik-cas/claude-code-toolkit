@@ -1,0 +1,5 @@
+{
+  "name": "changelog",
+  "description": "Generate changelogs from git history",
+  "author": { "name": "Jannik Castenow" }
+}

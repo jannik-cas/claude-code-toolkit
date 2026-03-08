@@ -1,0 +1,5 @@
+{
+  "name": "diff-narrator",
+  "description": "Generate narrated walkthroughs of diffs and pull requests",
+  "author": { "name": "Jannik Castenow" }
+}

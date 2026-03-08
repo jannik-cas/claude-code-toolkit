@@ -1,0 +1,120 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-toolkit",
+  "description": "Community-curated Claude Code plugins for developer workflows",
+  "owner": { "name": "Jannik Castenow" },
+  "plugins": [
+    {
+      "name": "changelog",
+      "description": "Generate changelogs from git history",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/changelog",
+      "category": "productivity"
+    },
+    {
+      "name": "explain",
+      "description": "Deep code explanation with call graph tracing and dependency mapping",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/explain",
+      "category": "productivity"
+    },
+    {
+      "name": "test-fix",
+      "description": "Run tests, parse failures, and auto-fix in a loop",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/test-fix",
+      "category": "testing"
+    },
+    {
+      "name": "security-scan",
+      "description": "Scan for hardcoded secrets, OWASP Top 10 patterns, and dependency CVEs",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/security-scan",
+      "category": "security"
+    },
+    {
+      "name": "deps",
+      "description": "Analyze outdated and vulnerable dependencies across package managers",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/deps",
+      "category": "productivity"
+    },
+    {
+      "name": "auto-format",
+      "description": "Auto-detect and run project formatter on changed files",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/auto-format",
+      "category": "formatting"
+    },
+    {
+      "name": "guard-secrets",
+      "description": "Block commits containing API keys, tokens, or passwords",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/guard-secrets",
+      "category": "security"
+    },
+    {
+      "name": "session-log",
+      "description": "Log session timestamps and working directory",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/session-log",
+      "category": "logging"
+    },
+    {
+      "name": "context-primer",
+      "description": "Auto-generate an optimized CLAUDE.md from your codebase",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/context-primer",
+      "category": "productivity"
+    },
+    {
+      "name": "diff-narrator",
+      "description": "Generate narrated walkthroughs of diffs and pull requests",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/diff-narrator",
+      "category": "productivity"
+    },
+    {
+      "name": "commit-guard",
+      "description": "Instant type-checking and linting after every edit",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/commit-guard",
+      "category": "quality"
+    },
+    {
+      "name": "dead-code",
+      "description": "Find unreachable code, unused exports, and dead dependency subtrees",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/dead-code",
+      "category": "quality"
+    },
+    {
+      "name": "auto-todo",
+      "description": "Auto-collect TODO/FIXME/HACK comments into a centralized list",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/auto-todo",
+      "category": "productivity"
+    },
+    {
+      "name": "perf-check",
+      "description": "Static analysis for algorithmic complexity and performance issues",
+      "version": "1.0.0",
+      "author": { "name": "Jannik Castenow" },
+      "source": "./plugins/perf-check",
+      "category": "quality"
+    }
+  ]
+}

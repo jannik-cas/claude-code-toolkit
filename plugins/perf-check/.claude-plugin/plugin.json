@@ -1,0 +1,5 @@
+{
+  "name": "perf-check",
+  "description": "Static analysis for algorithmic complexity and performance issues",
+  "author": { "name": "Jannik Castenow" }
+}

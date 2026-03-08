@@ -1,0 +1,5 @@
+{
+  "name": "explain",
+  "description": "Deep code explanation with call graph tracing and dependency mapping",
+  "author": { "name": "Jannik Castenow" }
+}

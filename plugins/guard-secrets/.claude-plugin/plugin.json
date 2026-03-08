@@ -1,0 +1,5 @@
+{
+  "name": "guard-secrets",
+  "description": "Block commits containing API keys, tokens, or passwords",
+  "author": { "name": "Jannik Castenow" }
+}

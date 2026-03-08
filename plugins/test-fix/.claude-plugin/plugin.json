@@ -1,0 +1,5 @@
+{
+  "name": "test-fix",
+  "description": "Run tests, parse failures, and auto-fix in a loop",
+  "author": { "name": "Jannik Castenow" }
+}

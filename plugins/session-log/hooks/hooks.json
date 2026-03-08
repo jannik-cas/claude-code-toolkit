@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/session_log.sh start",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionStop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/session_log.sh stop",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

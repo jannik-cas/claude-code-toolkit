@@ -1,0 +1,5 @@
+{
+  "name": "deps",
+  "description": "Analyze outdated and vulnerable dependencies across package managers",
+  "author": { "name": "Jannik Castenow" }
+}
